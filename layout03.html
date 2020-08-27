@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>레이아웃실습03</title>
+            <style>
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background: url('layout03/background.jpg');
+                }
+
+                #container {
+                    width: 1200px;
+                    margin: 0 auto;
+                }
+                #header {             
+                    font-weight: 600;
+                    font-size: 20px;
+                    text-align: center;
+                    color: white;
+                }
+                #headerText {
+                    font-size: 20px;
+                    text-align: center; 
+                    color: white;
+                    margin-top: 150px;
+                }
+                #tableText {
+                    text-align: center;
+                    color: white;
+                    width: 600px;
+                    height: 150px;
+                    margin-left: 300px;
+                    table-layout: fixed;
+                }
+                #tableimg {
+                    text-align: center;
+                    color: white;
+                    width: 1200px;
+                    height: 250px;
+                    table-layout: fixed;
+                }
+            </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="headerText">
+                    <em>STAY TUNED</em>
+            </div>
+            <div id="header">
+                <h1>
+                    New Website<br/>
+                    Launching Soon
+                </h1>
+            </div>
+            <table id="tableText" >
+                <tr>
+                    <td>
+                        <h1>94<br/></h1>
+                        Weeks
+                    </td>
+                    <td>
+                        <h1>06<br/></h1>
+                        Days
+                    </td>
+                    <td>
+                        <h1>24<br/></h1>
+                        Hours
+                    </td>
+                    <td>
+                        <h1>55<br/></h1>
+                        Minutes
+                    </td>
+                    <td>
+                        <h1>36<br/></h1>
+                        Seconds
+                    </td>
+                </tr>
+            </table>
+            <table id='tableimg'>
+                <tr>
+                    <td><img src="layout03/icon_1.png"/></td>
+                    <td><img src="layout03/icon_2.png"/></td>
+                    <td><img src="layout03/icon_3.png"/></td>
+                    <td><img src="layout03/icon_4.png"/></td>
+                    <td><img src="layout03/icon_5.png"/></td>
+                </tr>
+                
+            </table>
+        </div>
+    </body>
+</html>
